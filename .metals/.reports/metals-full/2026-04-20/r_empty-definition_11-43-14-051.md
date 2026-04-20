@@ -1,3 +1,14 @@
+error id: file:///C:/Users/Usuario/Documents/GitHub/Estudia-Ya/webapp/src/main/java/ProyectoEstudiaYa/entities/Usuario.java:_empty_/Builder#
+file:///C:/Users/Usuario/Documents/GitHub/Estudia-Ya/webapp/src/main/java/ProyectoEstudiaYa/entities/Usuario.java
+empty definition using pc, found symbol in pc: _empty_/Builder#
+empty definition using semanticdb
+empty definition using fallback
+non-local guesses:
+
+offset: 233
+uri: file:///C:/Users/Usuario/Documents/GitHub/Estudia-Ya/webapp/src/main/java/ProyectoEstudiaYa/entities/Usuario.java
+text:
+```scala
 package ProyectoEstudiaYa.entities;
 
 import jakarta.persistence.*;
@@ -10,7 +21,7 @@ import java.util.List;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Builder
+@@@Builder
 
 public class Usuario {
 
@@ -66,3 +77,10 @@ public class Usuario {
 
 
 }
+
+```
+
+
+#### Short summary: 
+
+empty definition using pc, found symbol in pc: _empty_/Builder#

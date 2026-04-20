@@ -1,4 +1,4 @@
-package ProyectoEstudiaYa.entities;
+package ProyectoEstudiaYa.webapp.entities;
 
  
 import jakarta.persistence.*;

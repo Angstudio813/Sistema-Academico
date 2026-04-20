@@ -1820,3 +1820,751 @@ abr. 20, 2026 11:13:32 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCanc
 ADVERTENCIA: Unmatched cancel notification for request id 2612
 2026.04.20 11:14:08 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Curso.java. Using fallback presentation compiler.
 2026.04.20 11:14:08 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Curso.java. Using fallback presentation compiler.
+abr. 20, 2026 11:15:51 A. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMACIÓN: Unsupported notification method: $/setTrace
+2026.04.20 11:17:08 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\UsuarioCurso.java. Using fallback presentation compiler.
+2026.04.20 11:17:08 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 11:20:20 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 11:20:20 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 11:20:21 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+abr. 20, 2026 11:20:21 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 2639
+abr. 20, 2026 11:21:33 A. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMACIÓN: Unsupported notification method: $/setTrace
+2026.04.20 11:21:38 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 11:21:38 WARN  no build target for: C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java
+2026.04.20 11:21:38 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 11:28:05 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 11:28:05 WARN  no build target for: C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java
+abr. 20, 2026 11:28:05 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 2656
+2026.04.20 11:28:05 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 11:28:15 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+abr. 20, 2026 11:28:16 A. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMACIÓN: Unsupported notification method: $/setTrace
+2026.04.20 11:31:09 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 11:31:09 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+abr. 20, 2026 11:31:09 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 2666
+abr. 20, 2026 11:34:05 A. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMACIÓN: Unsupported notification method: $/setTrace
+2026.04.20 11:35:12 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 11:35:12 WARN  no build target for: C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java
+2026.04.20 11:35:12 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 11:36:52 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 11:36:52 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Usuario.java. Using fallback presentation compiler.
+2026.04.20 11:36:52 WARN  no build target for: C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Usuario.java
+2026.04.20 11:36:52 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Usuario.java. Using fallback presentation compiler.
+2026.04.20 11:37:12 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Usuario.java. Using fallback presentation compiler.
+2026.04.20 11:37:12 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Usuario.java. Using fallback presentation compiler.
+abr. 20, 2026 11:37:12 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 2686
+2026.04.20 11:38:49 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 11:38:49 WARN  no build target for: C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java
+2026.04.20 11:38:49 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+abr. 20, 2026 11:38:52 A. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMACIÓN: Unsupported notification method: $/setTrace
+2026.04.20 11:39:36 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\UsuarioCurso.java. Using fallback presentation compiler.
+2026.04.20 11:39:44 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Usuario.java. Using fallback presentation compiler.
+2026.04.20 11:39:44 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\SesionAuditoria.java. Using fallback presentation compiler.
+2026.04.20 11:43:13 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Usuario.java. Using fallback presentation compiler.
+2026.04.20 11:43:13 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Usuario.java. Using fallback presentation compiler.
+2026.04.20 11:43:13 INFO  empty definition using pc, found symbol in pc: _empty_/Builder# (full report at: "C:\Users\Usuario\Documents\GitHub\Estudia-Ya\.metals\.reports\metals-full\2026-04-20\r_empty-definition_11-43-14-051.md")
+2026.04.20 11:43:14 INFO  Created report: Optional[file:///C:/Users/Usuario/Documents/GitHub/Estudia-Ya/webapp/src/main/java/ProyectoEstudiaYa/entities/Usuario.java]
+2026.04.20 11:43:14 INFO  empty definition using pc, found symbol in pc: _empty_/Builder# (full report at: "C:\Users\Usuario\Documents\GitHub\Estudia-Ya\.metals\.reports\metals-full\2026-04-20\r_empty-definition_11-43-14-051.md")
+2026.04.20 11:43:21 INFO  no build target found for /lombok/Builder.java. Using fallback presentation compiler.
+2026.04.20 11:44:15 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\UsuarioCurso.java. Using fallback presentation compiler.
+2026.04.20 11:45:14 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Usuario.java. Using fallback presentation compiler.
+2026.04.20 11:45:14 INFO  empty definition using pc, found symbol in pc: _empty_/Builder# (full report at: "C:\Users\Usuario\Documents\GitHub\Estudia-Ya\.metals\.reports\metals-full\2026-04-20\r_empty-definition_11-43-14-051.md")
+2026.04.20 11:45:15 INFO  no build target found for /lombok/Builder.java. Using fallback presentation compiler.
+2026.04.20 11:45:58 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\test\java\ProyectoEstudiaYa\webapp\WebappApplicationTests.java. Using fallback presentation compiler.
+2026.04.20 11:45:58 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Usuario.java. Using fallback presentation compiler.
+2026.04.20 11:45:58 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Ejercicio.java. Using fallback presentation compiler.
+2026.04.20 11:45:58 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Progreso.java. Using fallback presentation compiler.
+abr. 20, 2026 11:46:40 A. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMACIÓN: Unsupported notification method: $/setTrace
+2026.04.20 11:47:29 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\UsuarioCurso.java. Using fallback presentation compiler.
+2026.04.20 11:49:43 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 11:49:43 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Usuario.java. Using fallback presentation compiler.
+2026.04.20 11:49:43 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Usuario.java. Using fallback presentation compiler.
+2026.04.20 11:49:43 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Usuario.java. Using fallback presentation compiler.
+2026.04.20 11:49:43 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Tarea.java. Using fallback presentation compiler.
+2026.04.20 11:49:45 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Tarea.java. Using fallback presentation compiler.
+abr. 20, 2026 11:49:45 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 2713
+2026.04.20 11:49:45 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Tarea.java. Using fallback presentation compiler.
+2026.04.20 11:49:45 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Tarea.java. Using fallback presentation compiler.
+abr. 20, 2026 11:49:45 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 2717
+2026.04.20 11:49:45 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Tarea.java. Using fallback presentation compiler.
+2026.04.20 11:49:45 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Tarea.java. Using fallback presentation compiler.
+2026.04.20 11:49:48 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Tarea.java. Using fallback presentation compiler.
+2026.04.20 11:49:48 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Tarea.java. Using fallback presentation compiler.
+2026.04.20 11:49:48 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Tarea.java. Using fallback presentation compiler.
+2026.04.20 11:49:48 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Tarea.java. Using fallback presentation compiler.
+2026.04.20 11:49:48 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Tarea.java. Using fallback presentation compiler.
+2026.04.20 11:49:48 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Tarea.java. Using fallback presentation compiler.
+abr. 20, 2026 11:49:48 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 2730
+2026.04.20 11:49:49 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Tarea.java. Using fallback presentation compiler.
+2026.04.20 11:49:49 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\SesionAuditoria.java. Using fallback presentation compiler.
+abr. 20, 2026 11:49:49 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 2733
+2026.04.20 11:49:49 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\SesionAuditoria.java. Using fallback presentation compiler.
+2026.04.20 11:49:49 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\SesionAuditoria.java. Using fallback presentation compiler.
+2026.04.20 11:49:49 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\SesionAuditoria.java. Using fallback presentation compiler.
+2026.04.20 11:49:49 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Progreso.java. Using fallback presentation compiler.
+2026.04.20 11:49:50 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Progreso.java. Using fallback presentation compiler.
+2026.04.20 11:49:49 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Progreso.java. Using fallback presentation compiler.
+abr. 20, 2026 11:49:50 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 2740
+2026.04.20 11:49:49 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Progreso.java. Using fallback presentation compiler.
+2026.04.20 11:49:50 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Logro.java. Using fallback presentation compiler.
+abr. 20, 2026 11:49:50 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 2741
+2026.04.20 11:49:50 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Logro.java. Using fallback presentation compiler.
+2026.04.20 11:49:50 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\IntentoEjercicio.java. Using fallback presentation compiler.
+2026.04.20 11:49:51 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\IntentoEjercicio.java. Using fallback presentation compiler.
+2026.04.20 11:49:50 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\IntentoEjercicio.java. Using fallback presentation compiler.
+abr. 20, 2026 11:49:51 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 2746
+2026.04.20 11:49:51 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\IntentoEjercicio.java. Using fallback presentation compiler.
+2026.04.20 11:49:57 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\IntentoEjercicio.java. Using fallback presentation compiler.
+2026.04.20 11:49:57 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\IntentoEjercicio.java. Using fallback presentation compiler.
+2026.04.20 11:51:22 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\IntentoEjercicio.java. Using fallback presentation compiler.
+2026.04.20 11:51:22 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 11:51:22 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 11:52:43 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 11:52:43 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 11:52:43 WARN  no build target for: C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java
+2026.04.20 11:52:43 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 11:53:01 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 11:53:01 WARN  no build target for: C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java
+2026.04.20 11:53:08 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 11:53:08 WARN  no build target for: C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java
+abr. 20, 2026 11:53:08 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 2778
+2026.04.20 11:53:08 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+abr. 20, 2026 11:53:08 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 2780
+2026.04.20 11:53:09 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 11:53:09 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 11:53:09 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 11:53:09 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 11:53:09 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 11:53:20 WARN  no build target for: C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java
+2026.04.20 11:53:20 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 11:53:55 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 11:54:13 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 11:54:13 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 11:54:14 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 11:54:14 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 11:54:33 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\UsuarioCurso.java. Using fallback presentation compiler.
+2026.04.20 11:54:33 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Ejercicio.java. Using fallback presentation compiler.
+2026.04.20 11:54:34 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\IntentoEjercicio.java. Using fallback presentation compiler.
+2026.04.20 11:54:34 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Logro.java. Using fallback presentation compiler.
+2026.04.20 11:54:34 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Progreso.java. Using fallback presentation compiler.
+2026.04.20 11:54:34 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\SesionAuditoria.java. Using fallback presentation compiler.
+2026.04.20 11:54:34 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Tarea.java. Using fallback presentation compiler.
+2026.04.20 11:54:34 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Tema.java. Using fallback presentation compiler.
+2026.04.20 11:54:34 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Usuario.java. Using fallback presentation compiler.
+2026.04.20 11:56:24 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 11:56:24 WARN  no build target for: C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java
+2026.04.20 11:56:24 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 11:56:24 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 11:56:24 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 11:56:26 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 11:56:26 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 11:56:28 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 11:56:28 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 11:56:28 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 11:56:28 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 11:57:16 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 11:57:16 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 11:57:46 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 11:57:46 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 11:57:46 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 11:57:46 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 11:57:46 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 11:57:46 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+abr. 20, 2026 11:57:47 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 2830
+2026.04.20 11:57:50 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 11:58:04 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 11:58:04 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 11:58:04 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 11:58:04 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 11:58:07 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 11:58:13 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\UsuarioCurso.java. Using fallback presentation compiler.
+2026.04.20 11:58:13 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Usuario.java. Using fallback presentation compiler.
+2026.04.20 11:58:13 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Tema.java. Using fallback presentation compiler.
+2026.04.20 11:58:13 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Tarea.java. Using fallback presentation compiler.
+2026.04.20 11:58:13 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\SesionAuditoria.java. Using fallback presentation compiler.
+2026.04.20 11:58:13 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Progreso.java. Using fallback presentation compiler.
+2026.04.20 11:58:13 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Logro.java. Using fallback presentation compiler.
+2026.04.20 11:58:13 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\IntentoEjercicio.java. Using fallback presentation compiler.
+2026.04.20 11:58:13 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Ejercicio.java. Using fallback presentation compiler.
+2026.04.20 11:58:13 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 11:58:21 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 11:58:21 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 11:58:21 WARN  no build target for: C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java
+2026.04.20 11:58:21 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 11:58:22 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 11:58:22 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 11:58:22 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 11:58:22 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 11:58:41 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 11:58:41 WARN  no build target for: C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java
+2026.04.20 11:58:41 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 11:58:43 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 11:58:44 WARN  no build target for: C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java
+2026.04.20 11:58:43 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 11:58:44 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 11:58:43 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 11:58:45 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 11:58:47 INFO  no build target found for c:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 11:58:49 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 11:58:49 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 11:58:56 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\test\java\ProyectoEstudiaYa\webapp\WebappApplicationTests.java. Using fallback presentation compiler.
+2026.04.20 11:58:56 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\test\java\ProyectoEstudiaYa\webapp\WebappApplicationTests.java. Using fallback presentation compiler.
+2026.04.20 11:59:08 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\test\java\ProyectoEstudiaYa\webapp\WebappApplicationTests.java. Using fallback presentation compiler.
+2026.04.20 11:59:08 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 11:59:08 WARN  no build target for: C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java
+2026.04.20 11:59:08 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 11:59:08 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 11:59:10 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:02:16 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\SesionAuditoria.java. Using fallback presentation compiler.
+2026.04.20 12:02:16 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\SesionAuditoria.java. Using fallback presentation compiler.
+2026.04.20 12:02:16 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\SesionAuditoria.java. Using fallback presentation compiler.
+2026.04.20 12:02:17 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Usuario.java. Using fallback presentation compiler.
+2026.04.20 12:02:16 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Usuario.java. Using fallback presentation compiler.
+2026.04.20 12:02:17 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Usuario.java. Using fallback presentation compiler.
+2026.04.20 12:02:17 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\SesionAuditoria.java. Using fallback presentation compiler.
+2026.04.20 12:02:16 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\SesionAuditoria.java. Using fallback presentation compiler.
+2026.04.20 12:02:16 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\SesionAuditoria.java. Using fallback presentation compiler.
+2026.04.20 12:02:18 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\UsuarioCurso.java. Using fallback presentation compiler.
+2026.04.20 12:02:18 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\UsuarioCurso.java. Using fallback presentation compiler.
+2026.04.20 12:02:17 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\UsuarioCurso.java. Using fallback presentation compiler.
+2026.04.20 12:02:18 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Usuario.java. Using fallback presentation compiler.
+2026.04.20 12:02:17 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Usuario.java. Using fallback presentation compiler.
+2026.04.20 12:02:18 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Usuario.java. Using fallback presentation compiler.
+2026.04.20 12:02:17 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\SesionAuditoria.java. Using fallback presentation compiler.
+2026.04.20 12:02:18 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\SesionAuditoria.java. Using fallback presentation compiler.
+2026.04.20 12:02:18 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\SesionAuditoria.java. Using fallback presentation compiler.
+2026.04.20 12:02:18 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\SesionAuditoria.java. Using fallback presentation compiler.
+2026.04.20 12:02:17 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\SesionAuditoria.java. Using fallback presentation compiler.
+2026.04.20 12:02:18 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\UsuarioCurso.java. Using fallback presentation compiler.
+2026.04.20 12:02:18 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\UsuarioCurso.java. Using fallback presentation compiler.
+2026.04.20 12:02:18 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\UsuarioCurso.java. Using fallback presentation compiler.
+2026.04.20 12:02:18 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Usuario.java. Using fallback presentation compiler.
+2026.04.20 12:02:18 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Usuario.java. Using fallback presentation compiler.
+2026.04.20 12:02:18 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Usuario.java. Using fallback presentation compiler.
+2026.04.20 12:02:18 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Usuario.java. Using fallback presentation compiler.
+2026.04.20 12:02:18 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Usuario.java. Using fallback presentation compiler.
+2026.04.20 12:02:18 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\UsuarioCurso.java. Using fallback presentation compiler.
+2026.04.20 12:02:18 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\UsuarioCurso.java. Using fallback presentation compiler.
+2026.04.20 12:02:19 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\UsuarioCurso.java. Using fallback presentation compiler.
+2026.04.20 12:02:18 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\UsuarioCurso.java. Using fallback presentation compiler.
+2026.04.20 12:02:19 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\UsuarioCurso.java. Using fallback presentation compiler.
+2026.04.20 12:04:05 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\UsuarioCurso.java. Using fallback presentation compiler.
+2026.04.20 12:04:05 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Usuario.java. Using fallback presentation compiler.
+2026.04.20 12:04:05 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Tema.java. Using fallback presentation compiler.
+2026.04.20 12:04:05 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Tarea.java. Using fallback presentation compiler.
+2026.04.20 12:04:05 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\SesionAuditoria.java. Using fallback presentation compiler.
+2026.04.20 12:04:05 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Progreso.java. Using fallback presentation compiler.
+2026.04.20 12:04:05 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Logro.java. Using fallback presentation compiler.
+2026.04.20 12:04:05 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\IntentoEjercicio.java. Using fallback presentation compiler.
+2026.04.20 12:04:05 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Ejercicio.java. Using fallback presentation compiler.
+2026.04.20 12:04:05 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:04:24 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:04:24 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:04:24 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:04:24 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:04:28 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:04:36 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:04:37 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:06:09 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:06:11 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:06:30 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:06:30 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:06:31 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:06:31 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:06:31 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:06:31 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:06:31 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:06:31 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:06:31 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:06:34 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:06:34 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:06:34 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:06:34 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:06:34 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:06:34 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:06:35 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:06:37 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:06:37 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:06:37 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:06:37 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:06:37 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:06:38 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:06:38 WARN  no build target for: C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java
+2026.04.20 12:06:38 INFO  Created report: Optional[file:///C:/Users/Usuario/Documents/GitHub/Estudia-Ya/webapp/src/main/java/ProyectoEstudiaYa/webapp/entities/Curso.java]
+2026.04.20 12:06:38 INFO  QDox parse error in file:///C:/Users/Usuario/Documents/GitHub/Estudia-Ya/webapp/src/main/java/ProyectoEstudiaYa/webapp/entities/Curso.java (full report at: "C:\Users\Usuario\Documents\GitHub\Estudia-Ya\.metals\.reports\metals-full\2026-04-20\r_qdox-error_12-06-38-656.md")
+2026.04.20 12:06:38 WARN  Running javac-semanticdb failed for file:///C:/Users/Usuario/Documents/GitHub/Estudia-Ya/webapp/src/main/java/ProyectoEstudiaYa/webapp/entities/Curso.java. Output:
+
+2026.04.20 12:06:40 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:06:40 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:06:40 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:06:40 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:06:42 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+abr. 20, 2026 12:06:42 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 2987
+2026.04.20 12:06:42 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:06:42 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:06:42 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+abr. 20, 2026 12:06:42 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 2990
+abr. 20, 2026 12:06:42 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 2991
+2026.04.20 12:06:42 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:06:42 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:06:42 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:06:43 WARN  no build target for: C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java
+2026.04.20 12:06:43 INFO  QDox parse error in file:///C:/Users/Usuario/Documents/GitHub/Estudia-Ya/webapp/src/main/java/ProyectoEstudiaYa/webapp/entities/Curso.java (full report at: "C:\Users\Usuario\Documents\GitHub\Estudia-Ya\.metals\.reports\metals-full\2026-04-20\r_qdox-error_12-06-38-656.md")
+2026.04.20 12:06:43 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:06:42 WARN  Running javac-semanticdb failed for file:///C:/Users/Usuario/Documents/GitHub/Estudia-Ya/webapp/src/main/java/ProyectoEstudiaYa/webapp/entities/Curso.java. Output:
+
+2026.04.20 12:06:44 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:06:44 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:06:44 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:06:44 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:06:46 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:06:46 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:06:46 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:06:46 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:06:46 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+abr. 20, 2026 12:06:46 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 3010
+2026.04.20 12:06:46 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:06:47 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:06:47 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:06:47 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:06:47 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:06:47 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:06:47 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:06:48 INFO  QDox parse error in file:///C:/Users/Usuario/Documents/GitHub/Estudia-Ya/webapp/src/main/java/ProyectoEstudiaYa/webapp/entities/Curso.java (full report at: "C:\Users\Usuario\Documents\GitHub\Estudia-Ya\.metals\.reports\metals-full\2026-04-20\r_qdox-error_12-06-38-656.md")
+2026.04.20 12:06:48 WARN  no build target for: C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java
+2026.04.20 12:06:48 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:06:48 WARN  Running javac-semanticdb failed for file:///C:/Users/Usuario/Documents/GitHub/Estudia-Ya/webapp/src/main/java/ProyectoEstudiaYa/webapp/entities/Curso.java. Output:
+
+2026.04.20 12:06:48 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:06:48 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:06:48 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+abr. 20, 2026 12:06:48 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 3025
+2026.04.20 12:06:48 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:06:48 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:06:49 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:06:50 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:06:50 WARN  no build target for: C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java
+2026.04.20 12:06:51 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:06:51 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:06:53 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:06:53 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:06:54 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:06:54 WARN  no build target for: C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java
+2026.04.20 12:06:54 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:06:56 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:06:56 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:06:56 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:06:56 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:06:56 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:06:56 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:06:57 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:06:57 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:06:58 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:06:58 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:06:58 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+abr. 20, 2026 12:06:58 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 3060
+abr. 20, 2026 12:06:58 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 3061
+2026.04.20 12:06:58 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:06:58 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:06:58 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+abr. 20, 2026 12:06:59 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 3067
+2026.04.20 12:06:58 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:06:59 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:07:00 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:07:00 WARN  no build target for: C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java
+2026.04.20 12:07:00 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:07:01 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:07:01 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+abr. 20, 2026 12:07:01 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 3078
+2026.04.20 12:07:01 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:07:07 INFO  no build target found for c:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:07:07 INFO  no build target found for c:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:07:07 INFO  no build target found for c:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:07:22 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\UsuarioCurso.java. Using fallback presentation compiler.
+2026.04.20 12:07:22 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Usuario.java. Using fallback presentation compiler.
+2026.04.20 12:07:22 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Tema.java. Using fallback presentation compiler.
+2026.04.20 12:07:22 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Tarea.java. Using fallback presentation compiler.
+2026.04.20 12:07:22 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\SesionAuditoria.java. Using fallback presentation compiler.
+2026.04.20 12:07:22 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Progreso.java. Using fallback presentation compiler.
+2026.04.20 12:07:22 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Logro.java. Using fallback presentation compiler.
+2026.04.20 12:07:22 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\IntentoEjercicio.java. Using fallback presentation compiler.
+2026.04.20 12:07:22 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Ejercicio.java. Using fallback presentation compiler.
+2026.04.20 12:07:22 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:07:44 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:07:44 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:07:44 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:07:44 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:07:44 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:07:44 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:07:45 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:07:46 WARN  no build target for: C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java
+2026.04.20 12:07:46 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:07:46 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:07:47 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:07:46 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:07:46 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:07:46 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:07:46 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:07:46 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:07:48 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:07:48 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:07:48 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:07:48 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:07:48 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:07:48 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:07:48 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:07:48 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:07:50 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:07:50 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:07:50 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:07:50 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:07:53 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:07:54 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:07:54 WARN  no build target for: C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java
+2026.04.20 12:07:54 INFO  QDox parse error in file:///C:/Users/Usuario/Documents/GitHub/Estudia-Ya/webapp/src/main/java/ProyectoEstudiaYa/webapp/entities/Curso.java (full report at: "C:\Users\Usuario\Documents\GitHub\Estudia-Ya\.metals\.reports\metals-full\2026-04-20\r_qdox-error_12-06-38-656.md")
+2026.04.20 12:07:54 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:07:54 WARN  Running javac-semanticdb failed for file:///C:/Users/Usuario/Documents/GitHub/Estudia-Ya/webapp/src/main/java/ProyectoEstudiaYa/webapp/entities/Curso.java. Output:
+
+2026.04.20 12:07:58 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:07:58 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:07:58 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:07:58 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:07:59 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:08:00 INFO  QDox parse error in file:///C:/Users/Usuario/Documents/GitHub/Estudia-Ya/webapp/src/main/java/ProyectoEstudiaYa/webapp/entities/Curso.java (full report at: "C:\Users\Usuario\Documents\GitHub\Estudia-Ya\.metals\.reports\metals-full\2026-04-20\r_qdox-error_12-06-38-656.md")
+2026.04.20 12:08:00 WARN  no build target for: C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java
+2026.04.20 12:08:00 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:08:02 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:08:02 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:08:03 WARN  no build target for: C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java
+2026.04.20 12:08:03 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:08:12 INFO  no build target found for c:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:08:14 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:08:14 WARN  no build target for: C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java
+2026.04.20 12:08:14 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:08:14 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:08:15 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:08:55 INFO  no build target found for c:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:09:14 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:09:15 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:09:15 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:09:15 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:09:16 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:09:16 WARN  no build target for: C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java
+2026.04.20 12:09:16 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+abr. 20, 2026 12:09:23 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+ADVERTENCIA: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "chat-editing-text-model:/c%3A/Users/Usuario/Documents/GitHub/Estudia-Ya/webapp/src/main/java/ProyectoEstudiaYa/webapp/WebappApplication.java?%7B%22kind%22%3A%22doc%22%2C%22documentId%22%3A%22modified-file-entry%3A%3A6%22%2C%22chatSessionResource%22%3A%7B%22%24mid%22%3A1%2C%22external%22%3A%22vscode-chat-session%3A%2F%2Flocal%2FOGJhMWI5NTUtMGQwZC00NjQwLTgwOTYtMWFkYzU1N2IxMGUw%22%2C%22path%22%3A%22%2FOGJhMWI5NTUtMGQwZC00NjQwLTgwOTYtMWFkYzU1N2IxMGUw%22%2C%22scheme%22%3A%22vscode-chat-session%22%2C%22authority%22%3A%22local%22%7D%7D"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "chat-editing-text-model" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:149)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:209)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:787)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:784)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:808)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:225)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+2026.04.20 12:09:39 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:09:39 WARN  no build target for: C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java
+abr. 20, 2026 12:09:39 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+ADVERTENCIA: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "chat-editing-text-model:/c%3A/Users/Usuario/Documents/GitHub/Estudia-Ya/webapp/src/main/java/ProyectoEstudiaYa/webapp/WebappApplication.java?%7B%22kind%22%3A%22doc%22%2C%22documentId%22%3A%22modified-file-entry%3A%3A6%22%2C%22chatSessionResource%22%3A%7B%22%24mid%22%3A1%2C%22external%22%3A%22vscode-chat-session%3A%2F%2Flocal%2FOGJhMWI5NTUtMGQwZC00NjQwLTgwOTYtMWFkYzU1N2IxMGUw%22%2C%22path%22%3A%22%2FOGJhMWI5NTUtMGQwZC00NjQwLTgwOTYtMWFkYzU1N2IxMGUw%22%2C%22scheme%22%3A%22vscode-chat-session%22%2C%22authority%22%3A%22local%22%7D%7D"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "chat-editing-text-model" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:149)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:209)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:787)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:784)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:808)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:225)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+2026.04.20 12:09:42 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:09:42 WARN  no build target for: C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java
+2026.04.20 12:09:42 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:09:51 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:09:51 WARN  no build target for: C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java
+2026.04.20 12:09:51 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:09:58 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:09:58 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:09:59 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:10:14 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:10:15 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:10:21 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:10:25 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:10:25 WARN  no build target for: C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java
+2026.04.20 12:10:25 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:10:25 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:10:32 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:10:41 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:10:41 WARN  no build target for: C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java
+2026.04.20 12:10:41 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:10:42 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:10:41 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:10:42 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:10:43 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:10:49 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:11:02 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:11:02 WARN  no build target for: C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java
+2026.04.20 12:11:02 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:11:02 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:11:03 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:11:04 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:11:04 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:11:05 WARN  no build target for: C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java
+2026.04.20 12:11:05 INFO  Created report: Optional[file:///C:/Users/Usuario/Documents/GitHub/Estudia-Ya/webapp/src/main/java/ProyectoEstudiaYa/WebappApplication.java]
+2026.04.20 12:11:05 INFO  QDox parse error in file:///C:/Users/Usuario/Documents/GitHub/Estudia-Ya/webapp/src/main/java/ProyectoEstudiaYa/WebappApplication.java (full report at: "C:\Users\Usuario\Documents\GitHub\Estudia-Ya\.metals\.reports\metals-full\2026-04-20\r_qdox-error_12-11-05-214.md")
+2026.04.20 12:11:05 WARN  Running javac-semanticdb failed for file:///C:/Users/Usuario/Documents/GitHub/Estudia-Ya/webapp/src/main/java/ProyectoEstudiaYa/WebappApplication.java. Output:
+
+2026.04.20 12:11:05 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:11:45 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:11:45 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:11:45 WARN  no build target for: C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java
+2026.04.20 12:11:45 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:11:49 WARN  no build target for: C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java
+2026.04.20 12:11:49 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:11:52 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:11:52 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:11:55 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:12:09 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:12:09 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:12:09 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:12:09 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:12:09 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:12:10 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:12:11 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:12:11 WARN  no build target for: C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java
+2026.04.20 12:12:11 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:12:12 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:12:12 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:12:12 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:12:13 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:12:13 WARN  no build target for: C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java
+2026.04.20 12:12:13 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:12:20 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:12:20 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:12:20 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:12:21 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:12:21 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:12:21 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:12:22 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:12:21 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:12:22 WARN  no build target for: C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java
+2026.04.20 12:12:22 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:12:24 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:12:24 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:12:24 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:12:24 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:12:24 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:12:24 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:12:24 WARN  no build target for: C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java
+2026.04.20 12:12:24 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:12:26 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:12:29 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:12:29 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+abr. 20, 2026 12:12:32 P. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMACIÓN: Unsupported notification method: $/setTrace
+2026.04.20 12:12:32 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:12:32 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:13:14 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:14:06 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:14:08 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:14:23 INFO  no build target found for c:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Usuario.java. Using fallback presentation compiler.
+2026.04.20 12:14:23 INFO  no build target found for c:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\UsuarioCurso.java. Using fallback presentation compiler.
+2026.04.20 12:14:23 INFO  no build target found for c:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\IntentoEjercicio.java. Using fallback presentation compiler.
+2026.04.20 12:14:23 INFO  no build target found for c:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Ejercicio.java. Using fallback presentation compiler.
+2026.04.20 12:14:23 INFO  no build target found for c:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Progreso.java. Using fallback presentation compiler.
+2026.04.20 12:14:23 INFO  no build target found for c:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:14:23 INFO  no build target found for c:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Logro.java. Using fallback presentation compiler.
+2026.04.20 12:14:23 INFO  no build target found for c:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\SesionAuditoria.java. Using fallback presentation compiler.
+2026.04.20 12:14:23 INFO  no build target found for c:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Tarea.java. Using fallback presentation compiler.
+2026.04.20 12:14:23 INFO  no build target found for c:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Tema.java. Using fallback presentation compiler.
+2026.04.20 12:14:23 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\UsuarioCurso.java. Using fallback presentation compiler.
+2026.04.20 12:14:23 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Usuario.java. Using fallback presentation compiler.
+2026.04.20 12:14:23 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Tema.java. Using fallback presentation compiler.
+2026.04.20 12:14:23 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Tarea.java. Using fallback presentation compiler.
+2026.04.20 12:14:23 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\SesionAuditoria.java. Using fallback presentation compiler.
+2026.04.20 12:14:23 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Progreso.java. Using fallback presentation compiler.
+2026.04.20 12:14:23 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Logro.java. Using fallback presentation compiler.
+2026.04.20 12:14:23 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\IntentoEjercicio.java. Using fallback presentation compiler.
+2026.04.20 12:14:23 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Ejercicio.java. Using fallback presentation compiler.
+2026.04.20 12:14:23 INFO  no build target found for c:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\UsuarioCurso.java. Using fallback presentation compiler.
+2026.04.20 12:14:23 INFO  no build target found for c:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Usuario.java. Using fallback presentation compiler.
+2026.04.20 12:14:23 INFO  no build target found for c:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Tema.java. Using fallback presentation compiler.
+2026.04.20 12:14:23 INFO  no build target found for c:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Tarea.java. Using fallback presentation compiler.
+2026.04.20 12:14:23 INFO  no build target found for c:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\SesionAuditoria.java. Using fallback presentation compiler.
+2026.04.20 12:14:23 INFO  no build target found for c:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Progreso.java. Using fallback presentation compiler.
+2026.04.20 12:14:23 INFO  no build target found for c:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Logro.java. Using fallback presentation compiler.
+2026.04.20 12:14:23 INFO  no build target found for c:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\IntentoEjercicio.java. Using fallback presentation compiler.
+2026.04.20 12:14:23 INFO  no build target found for c:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Ejercicio.java. Using fallback presentation compiler.
+2026.04.20 12:14:23 INFO  no build target found for c:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:14:24 WARN  no build target for: C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\UsuarioCurso.java
+2026.04.20 12:14:24 WARN  no build target for: C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Usuario.java
+2026.04.20 12:14:24 WARN  no build target for: C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Tarea.java
+2026.04.20 12:14:25 WARN  no build target for: C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Tema.java
+2026.04.20 12:14:24 WARN  no build target for: C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\SesionAuditoria.java
+2026.04.20 12:14:24 WARN  no build target for: C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Logro.java
+2026.04.20 12:14:25 WARN  no build target for: C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\IntentoEjercicio.java
+2026.04.20 12:14:25 WARN  no build target for: C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java
+2026.04.20 12:14:25 WARN  no build target for: C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Progreso.java
+2026.04.20 12:14:25 WARN  no build target for: C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Ejercicio.java
+2026.04.20 12:14:25 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:14:26 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:14:28 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:14:28 WARN  no build target for: C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java
+2026.04.20 12:14:29 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:15:06 INFO  no build target found for c:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:15:07 WARN  no build target for: C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java
+2026.04.20 12:15:07 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:15:09 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:15:10 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:15:10 WARN  no build target for: C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java
+2026.04.20 12:15:10 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:15:10 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:15:10 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:15:15 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:15:15 WARN  no build target for: C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java
+2026.04.20 12:15:15 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:15:15 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:15:16 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:15:48 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Tarea.java. Using fallback presentation compiler.
+2026.04.20 12:15:48 WARN  no build target for: C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Tarea.java
+2026.04.20 12:15:48 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Tarea.java. Using fallback presentation compiler.
+2026.04.20 12:15:48 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Tarea.java. Using fallback presentation compiler.
+abr. 20, 2026 12:15:48 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 3372
+abr. 20, 2026 12:15:48 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 3373
+2026.04.20 12:15:48 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Tarea.java. Using fallback presentation compiler.
+2026.04.20 12:15:48 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Progreso.java. Using fallback presentation compiler.
+2026.04.20 12:15:49 WARN  no build target for: C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Progreso.java
+2026.04.20 12:15:49 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Progreso.java. Using fallback presentation compiler.
+2026.04.20 12:15:49 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Progreso.java. Using fallback presentation compiler.
+2026.04.20 12:15:49 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Progreso.java. Using fallback presentation compiler.
+2026.04.20 12:17:03 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:17:03 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:17:03 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:17:03 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:17:03 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:17:03 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:17:03 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:17:03 INFO  Created report: Optional[file:///C:/Users/Usuario/Documents/GitHub/Estudia-Ya/webapp/src/main/java/ProyectoEstudiaYa/webapp/entities/Curso.java]
+2026.04.20 12:17:03 INFO  empty definition using pc, found symbol in pc: _empty_/Builder# (full report at: "C:\Users\Usuario\Documents\GitHub\Estudia-Ya\.metals\.reports\metals-full\2026-04-20\r_empty-definition_12-17-03-864.md")
+2026.04.20 12:17:03 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:17:03 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Usuario.java. Using fallback presentation compiler.
+2026.04.20 12:17:04 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Usuario.java. Using fallback presentation compiler.
+2026.04.20 12:17:03 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Usuario.java. Using fallback presentation compiler.
+2026.04.20 12:17:03 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Usuario.java. Using fallback presentation compiler.
+2026.04.20 12:17:04 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Usuario.java. Using fallback presentation compiler.
+2026.04.20 12:17:03 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:17:03 INFO  empty definition using pc, found symbol in pc: _empty_/Builder# (full report at: "C:\Users\Usuario\Documents\GitHub\Estudia-Ya\.metals\.reports\metals-full\2026-04-20\r_empty-definition_12-17-03-864.md")
+2026.04.20 12:17:03 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:17:04 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:17:03 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:17:04 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:17:03 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:17:05 INFO  no build target found for /lombok/package-info.java. Using fallback presentation compiler.
+2026.04.20 12:17:05 INFO  no build target found for /lombok/Builder.java. Using fallback presentation compiler.
+2026.04.20 12:17:50 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Progreso.java. Using fallback presentation compiler.
+2026.04.20 12:17:50 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Progreso.java. Using fallback presentation compiler.
+2026.04.20 12:17:50 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Progreso.java. Using fallback presentation compiler.
+2026.04.20 12:17:51 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Progreso.java. Using fallback presentation compiler.
+2026.04.20 12:17:51 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Progreso.java. Using fallback presentation compiler.
+2026.04.20 12:17:54 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Progreso.java. Using fallback presentation compiler.
+2026.04.20 12:17:55 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:17:55 WARN  no build target for: C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java
+2026.04.20 12:17:55 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:17:55 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:17:56 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:17:56 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Usuario.java. Using fallback presentation compiler.
+2026.04.20 12:17:56 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Usuario.java. Using fallback presentation compiler.
+2026.04.20 12:17:57 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:19:19 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:19:19 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:19:19 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:19:20 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:19:19 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:19:20 WARN  no build target for: C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java
+2026.04.20 12:19:20 INFO  Created report: Optional[file:///C:/Users/Usuario/Documents/GitHub/Estudia-Ya/webapp/src/main/java/ProyectoEstudiaYa/webapp/WebappApplication.java]
+2026.04.20 12:19:20 INFO  QDox parse error in file:///C:/Users/Usuario/Documents/GitHub/Estudia-Ya/webapp/src/main/java/ProyectoEstudiaYa/webapp/WebappApplication.java (full report at: "C:\Users\Usuario\Documents\GitHub\Estudia-Ya\.metals\.reports\metals-full\2026-04-20\r_qdox-error_12-19-20-615.md")
+2026.04.20 12:19:20 WARN  Running javac-semanticdb failed for file:///C:/Users/Usuario/Documents/GitHub/Estudia-Ya/webapp/src/main/java/ProyectoEstudiaYa/webapp/WebappApplication.java. Output:
+
+2026.04.20 12:19:20 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:19:21 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:19:21 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:19:22 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:19:23 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:19:24 WARN  no build target for: C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java
+2026.04.20 12:19:24 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:19:26 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Progreso.java. Using fallback presentation compiler.
+2026.04.20 12:19:43 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\entities\Curso.java. Using fallback presentation compiler.
+2026.04.20 12:19:52 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 12:19:52 WARN  no build target for: C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java
+2026.04.20 12:19:53 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
