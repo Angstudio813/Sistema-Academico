@@ -2585,3 +2585,8 @@ INFORMACIÓN: Unsupported notification method: $/setTrace
 2026.04.20 13:08:34 INFO  Memory monitor started
 2026.04.20 13:08:39 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
 2026.04.20 13:09:50 WARN  no build target for: C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java
+2026.04.20 13:10:29 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
+2026.04.20 13:10:31 WARN  no build target for: C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java
+abr. 20, 2026 1:10:31 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 1
+2026.04.20 13:10:31 INFO  no build target found for C:\Users\Usuario\Documents\GitHub\Estudia-Ya\webapp\src\main\java\ProyectoEstudiaYa\webapp\WebappApplication.java. Using fallback presentation compiler.
