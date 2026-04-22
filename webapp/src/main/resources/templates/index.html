@@ -1,13 +1,114 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <title>Dashboard EstudiaYa</title>
+  <link rel="stylesheet" href="inicioEjemplo.css">
 </head>
 <body>
-    
-<header> Bienvenido a mi proyecto spring boot </header>
+
+
+<div class="layout">
+  <div class="sidebar">
+    <div class="sidebar-header">
+      <div class="logo">Estudia<span>Ya</span></div>
+    </div>
+
+    <div class="user-info">
+      <div class="avatar">CL</div>
+      <div>
+        <div class="user-name">Carlos López</div>
+        <div class="user-grade">3ro Secundaria</div>
+      </div>
+    </div>
+
+    <div class="xp-bar-wrap">
+      <div class="xp-label">Nivel 8 — Explorador</div>
+      <div class="xp-bar"><div class="xp-fill"></div></div>
+      <div class="xp-text">620 / 1000 XP</div>
+    </div>
+
+    <nav class="nav">
+      <div class="nav-item active"><div class="nav-dot"></div><span class="nav-label">Inicio</span></div>
+      <div class="nav-item"><div class="nav-dot"></div><span class="nav-label">Mis cursos</span></div>
+      <div class="nav-item"><div class="nav-dot"></div><span class="nav-label">Práctica inteligente</span></div>
+      <div class="nav-item"><div class="nav-dot"></div><span class="nav-label">Asistente IA</span></div>
+      <div class="nav-item"><div class="nav-dot"></div><span class="nav-label">Mi progreso</span></div>
+      <div class="nav-item"><div class="nav-dot"></div><span class="nav-label">Plan de estudio</span></div>
+      <div class="nav-item"><div class="nav-dot"></div><span class="nav-label">Logros y retos</span></div>
+    </nav>
+
+    <div class="sidebar-footer">
+      <div class="logout">Cerrar sesión</div>
+    </div>
+  </div>
+
+  <div class="main">
+    <div class="top-bar">
+      <div>
+        <div class="greeting">¡Buenas tardes, Carlos!</div>
+        <div class="greeting-sub">Tienes 2 ejercicios pendientes hoy</div>
+      </div>
+
+      <div class="streak-badge">
+        <span class="streak-fire">🔥</span>
+        <div>
+          <div class="streak-num">7</div>
+          <div class="streak-label">días seguidos</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="stats-row">
+      <div class="stat-card">
+        <div class="stat-val">142</div>
+        <div class="stat-lbl">Ejercicios completados</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-val">8</div>
+        <div class="stat-lbl">Logros desbloqueados</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-val">89%</div>
+        <div class="stat-lbl">Promedio general</div>
+      </div>
+    </div>
+
+    <div class="mision-box">
+      <div>
+        <div class="mision-tag">MISIÓN DEL DÍA</div>
+        <div class="mision-title">Practica 10 ejercicios de fracciones</div>
+        <div class="mision-sub">La IA detectó que necesitas reforzar este tema</div>
+      </div>
+      <button class="mision-btn">Empezar</button>
+    </div>
+
+    <div class="section-title">Mis cursos</div>
+
+    <div class="courses-grid">
+      <div class="course-card">
+        <div class="course-top">
+          <div class="course-icon">📐</div>
+          <div>
+            <div class="course-name">Matemática</div>
+            <div class="course-topic">Fracciones y decimales</div>
+          </div>
+        </div>
+        <div class="prog-bar"><div class="prog-fill"></div></div>
+        <div class="prog-pct">65% completado</div>
+      </div>
+    </div>
+
+    <div class="section-title">Logros recientes</div>
+
+    <div class="logros-row">
+      <div class="logro"><div class="logro-icon">🏆</div><div class="logro-name">Primera racha</div></div>
+      <div class="logro"><div class="logro-icon">⚡</div><div class="logro-name">Velocista</div></div>
+      <div class="logro"><div class="logro-icon">🎯</div><div class="logro-name">Puntería perfecta</div></div>
+      <div class="logro"><div class="logro-icon">📚</div><div class="logro-name">Lector ávido</div></div>
+    </div>
+  </div>
+</div>
 
 </body>
 </html>
