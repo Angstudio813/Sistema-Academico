@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asistente IA | EstudiaYa</title>
+    <style>
+        body { font-family: "Segoe UI", sans-serif; margin: 0; background: #f5f7ff; color: #1f2937; }
+        .wrap { max-width: 980px; margin: 24px auto; padding: 0 16px; }
+        .top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; }
+        .title { font-size: 28px; margin: 0; }
+        .back { text-decoration: none; color: #1d4ed8; font-weight: 600; }
+        .hero { background: linear-gradient(120deg, #1e3a8a, #1d4ed8); color: #fff; border-radius: 12px; padding: 18px; margin-bottom: 16px; }
+        .hero h2 { margin: 0 0 8px; }
+        .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+        .card { background: #fff; border: 1px solid #e6ecf5; border-radius: 10px; padding: 14px; }
+        ul { margin: 8px 0 0 18px; }
+        li { margin-bottom: 6px; }
+        @media (max-width: 860px) { .grid { grid-template-columns: 1fr; } }
+    </style>
+</head>
+<body>
+<div class="wrap">
+    <div class="top">
+        <h1 class="title">Asistente IA</h1>
+        <a class="back" href="/">Volver al inicio</a>
+    </div>
+
+    <div class="hero">
+        <h2 th:text="'Hola, ' + ${asistencia.nombreUsuario}">Hola</h2>
+        <p th:text="${asistencia.mensajePrincipal}">Mensaje principal</p>
+    </div>
+
+    <div class="grid">
+        <div class="card">
+            <h3>Temas a reforzar</h3>
+            <ul>
+                <li th:each="tema : ${asistencia.temasRefuerzo}" th:text="${tema}">Tema</li>
+            </ul>
+            <p th:if="${#lists.isEmpty(asistencia.temasRefuerzo)}">No hay temas críticos por ahora.</p>
+        </div>
+
+        <div class="card">
+            <h3>Plan sugerido por IA</h3>
+            <ul>
+                <li th:each="item : ${asistencia.recomendaciones}" th:text="${item}">Recomendación</li>
+            </ul>
+        </div>
+    </div>
+</div>
+</body>
+</html>
