@@ -60,9 +60,6 @@ public class AsistenteIAService {
                 .build();
     }
 
-    // -------------------------------------------------------
-    // Genera la asistencia inicial al cargar la página
-    // -------------------------------------------------------
     public AsistenteIARespuestaDTO generarAsistencia(Long usuarioId) {
         usuarioRepository.findById(usuarioId);
         String nombreUsuario = "estudiante";
@@ -81,9 +78,6 @@ public class AsistenteIAService {
         );
     }
 
-    // -------------------------------------------------------
-    // Chat libre: el alumno escribe una pregunta
-    // -------------------------------------------------------
     public String chatLibre(Long usuarioId, String pregunta) {
         String provider = aiProvider != null ? aiProvider.trim().toLowerCase() : "none";
         try {
@@ -102,9 +96,6 @@ public class AsistenteIAService {
         return "Configura tu proveedor de IA en application.properties.";
     }
 
-    // -------------------------------------------------------
-    // Generación IA para recomendaciones (al cargar página)
-    // -------------------------------------------------------
     private AsistenteGenerada generarConIA(String nombreUsuario, int temasConRefuerzo, int totalTemasConDetalle) {
         String provider = aiProvider != null ? aiProvider.trim().toLowerCase() : "none";
         try {
@@ -125,9 +116,6 @@ public class AsistenteIAService {
         return new AsistenteGenerada(mensajePrincipal, recomendaciones);
     }
 
-    // -------------------------------------------------------
-    // GEMINI — recomendaciones
-    // -------------------------------------------------------
     private AsistenteGenerada invocarGemini(String nombreUsuario, int temasConRefuerzo, int totalTemasConDetalle) throws Exception {
         String prompt = construirPrompt(nombreUsuario, temasConRefuerzo, totalTemasConDetalle);
 
@@ -162,9 +150,6 @@ public class AsistenteIAService {
         return parsearRespuestaAsistente(content);
     }
 
-    // -------------------------------------------------------
-    // GEMINI — chat libre
-    // -------------------------------------------------------
 private String invocarGeminiChat(String pregunta) throws Exception {
     String promptCompleto = "Eres un tutor educativo para estudiantes peruanos de secundaria. "
             + "Explica de forma clara y simple en español. Responde la siguiente pregunta: " + pregunta;
@@ -201,10 +186,8 @@ private String invocarGeminiChat(String pregunta) throws Exception {
     }
     return texto;
 }
-    // -------------------------------------------------------
-    // OPENAI — recomendaciones
-    // -------------------------------------------------------
-    private AsistenteGenerada invocarOpenAI(String nombreUsuario, int temasConRefuerzo, int totalTemasConDetalle) throws Exception {
+
+private AsistenteGenerada invocarOpenAI(String nombreUsuario, int temasConRefuerzo, int totalTemasConDetalle) throws Exception {
         String prompt = construirPrompt(nombreUsuario, temasConRefuerzo, totalTemasConDetalle);
 
         String body = objectMapper.writeValueAsString(java.util.Map.of(
@@ -234,9 +217,6 @@ private String invocarGeminiChat(String pregunta) throws Exception {
         return parsearRespuestaAsistente(content);
     }
 
-    // -------------------------------------------------------
-    // OPENAI — chat libre
-    // -------------------------------------------------------
     private String invocarOpenAIChat(String pregunta) throws Exception {
         String body = objectMapper.writeValueAsString(java.util.Map.of(
                 "model", openAiModel,
@@ -259,9 +239,6 @@ private String invocarGeminiChat(String pregunta) throws Exception {
         return root.path("choices").path(0).path("message").path("content").asText("Sin respuesta.");
     }
 
-    // -------------------------------------------------------
-    // ANTHROPIC — recomendaciones
-    // -------------------------------------------------------
     private AsistenteGenerada invocarAnthropic(String nombreUsuario, int temasConRefuerzo, int totalTemasConDetalle) throws Exception {
         String prompt = construirPrompt(nombreUsuario, temasConRefuerzo, totalTemasConDetalle);
 
@@ -291,9 +268,6 @@ private String invocarGeminiChat(String pregunta) throws Exception {
         return parsearRespuestaAsistente(content);
     }
 
-    // -------------------------------------------------------
-    // ANTHROPIC — chat libre
-    // -------------------------------------------------------
     private String invocarAnthropicChat(String pregunta) throws Exception {
         String body = objectMapper.writeValueAsString(java.util.Map.of(
                 "model", anthropicModel,
@@ -316,9 +290,7 @@ private String invocarGeminiChat(String pregunta) throws Exception {
         return root.path("content").path(0).path("text").asText("Sin respuesta.");
     }
 
-    // -------------------------------------------------------
-    // Helpers
-    // -------------------------------------------------------
+
     private String construirPrompt(String nombreUsuario, int temasConRefuerzo, int totalTemasConDetalle) {
         return "Genera recomendaciones de estudio para un estudiante. "
                 + "Nombre: " + nombreUsuario + ". "
