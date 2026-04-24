@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logros y Retos</title>
+    <link rel="stylesheet" th:href="@{/inicioEjemplo.css}">
+    <link rel="stylesheet" th:href="@{/logros.css}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+<div class="layout">
+
+    <!-- ===== SIDEBAR (sin cambios) ===== -->
+    <div class="sidebar">
+        <div class="sidebar-header">
+            <div class="logo">Estudia<span>Ya</span></div>
+        </div>
+
+        <div class="user-info">
+            <div class="avatar">CL</div>
+            <div>
+                <div class="user-name">Carlos Lopez</div>
+                <div class="user-grade">3ro Secundaria</div>
+            </div>
+        </div>
+
+        <div class="xp-bar-wrap">
+            <div class="xp-label">Nivel 8 - Explorador</div>
+            <div class="xp-bar"><div class="xp-fill"></div></div>
+            <div class="xp-text">620 / 1000 XP</div>
+        </div>
+
+        <nav class="nav">
+            <a class="nav-item" th:href="@{/}" href="/"><div class="nav-dot"></div><span class="nav-label">Inicio</span></a>
+            <a class="nav-item" th:href="@{/mis-cursos}" href="/mis-cursos"><div class="nav-dot"></div><span class="nav-label">Mis cursos</span></a>
+            <a class="nav-item" th:href="@{/practica-inteligente}" href="/practica-inteligente"><div class="nav-dot"></div><span class="nav-label">Practica inteligente</span></a>
+            <a class="nav-item" th:href="@{/asistente-ia/1}" href="/asistente-ia/1"><div class="nav-dot"></div><span class="nav-label">Asistente IA</span></a>
+            <a class="nav-item" th:href="@{/progreso/1}" href="/progreso/1"><div class="nav-dot"></div><span class="nav-label">Mi progreso</span></a>
+            <a class="nav-item" th:href="@{/plan-estudio}" href="/plan-estudio"><div class="nav-dot"></div><span class="nav-label">Plan de estudio</span></a>
+            <a class="nav-item active" th:href="@{/logros-retos}" href="/logros-retos"><div class="nav-dot"></div><span class="nav-label">Logros y retos</span></a>
+        </nav>
+
+        <div class="sidebar-footer">
+            <div class="logout">Cerrar sesion</div>
+        </div>
+    </div>
+
+    <!-- ===== CONTENIDO PRINCIPAL ===== -->
+    <!-- NUEVO: UI enriquecida del archivo de tu compañero, con FontAwesome -->
+    <div class="main module-main">
+        <div class="container">
+
+            <h1><i class="fa-solid fa-trophy"></i> Logros y Retos</h1>
+
+            <!-- STATS: 4 tarjetas de métricas (nuevas del segundo archivo) -->
+            <div class="stats-grid">
+
+                <div class="card stat-card">
+                    <h2><i class="fa-solid fa-star"></i> Puntos</h2>
+                    <p id="puntos">0</p>
+                </div>
+
+                <div class="card stat-card">
+                    <h2><i class="fa-solid fa-chart-line"></i> Nivel</h2>
+                    <p id="nivel">1</p>
+                </div>
+
+                <div class="card stat-card">
+                    <h2><i class="fa-solid fa-ranking-star"></i> Rango</h2>
+                    <p id="rango">Bronce</p>
+                </div>
+
+                <div class="card stat-card">
+                    <h2><i class="fa-solid fa-fire"></i> Racha</h2>
+                    <p id="racha">0 días</p>
+                </div>
+
+            </div>
+
+            <!-- BARRA DE PROGRESO (nueva del segundo archivo) -->
+            <div class="card">
+                <h2><i class="fa-solid fa-chart-simple"></i> Progreso al siguiente nivel</h2>
+                <div class="barra">
+                    <div id="progreso" style="width: 0%; height: 100%; background: #4f8ef7; border-radius: 8px; transition: width 0.4s;"></div>
+                </div>
+            </div>
+
+            <!-- RETOS DINÁMICOS (lógica del segundo archivo: pool + rotación) -->
+            <div class="card">
+                <h2><i class="fa-solid fa-bullseye"></i> Retos activos</h2>
+                <ul id="retos"></ul>
+            </div>
+
+            <!-- INSIGNIAS (más insignias del segundo archivo) -->
+            <div class="card">
+                <h3><i class="fa-solid fa-award"></i> Insignias</h3>
+                <div id="insignias"></div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+<script>
+// ============================================================
+//  LÓGICA ENRIQUECIDA (del archivo de tu compañero)
+//  adaptada para usar FontAwesome en lugar de emojis
+// ============================================================
+
+let puntos = 0;
+let nivel  = 1;
+let racha  = 0;
+
+// Pool de retos con distintas dificultades
+let poolRetos = [
+    {texto: "Completar 1 ejercicio",    pts: 10},
+    {texto: "Estudiar 1 día",           pts: 15},
+    {texto: "Practicar 3 veces",        pts: 20},
+    {texto: "Leer un tema",             pts: 25},
+    {texto: "Resolver 5 preguntas",     pts: 30},
+    {texto: "Estudiar 2 horas",         pts: 35},
+    {texto: "Repasar tema difícil",     pts: 40},
+    {texto: "Practicar matemáticas",    pts: 45},
+    {texto: "Resolver examen corto",    pts: 50}
+];
+
+// Sólo 3 retos visibles a la vez
+let retosActivos = [];
+
+/* INICIO */
+function iniciarRetos() {
+    for (let i = 0; i < 3; i++) agregarReto();
+    renderRetos();
+}
+
+/* Agrega un reto adecuado al nivel actual */
+function agregarReto() {
+    let posibles = poolRetos.filter(r => r.pts <= nivel * 20);
+    let random = posibles[Math.floor(Math.random() * posibles.length)];
+    retosActivos.push({...random});   // copia para evitar mutaciones
+}
+
+/* Renderiza la lista de retos */
+function renderRetos() {
+    let lista = document.getElementById("retos");
+    lista.innerHTML = "";
+
+    retosActivos.forEach((r, index) => {
+        let li = document.createElement("li");
+        li.className = "reto";
+        li.innerHTML = `
+            <span>${r.texto}</span>
+            <button onclick="completar(${index})">
+                <i class="fa-solid fa-check"></i> +${r.pts} pts
+            </button>`;
+        lista.appendChild(li);
+    });
+}
+
+/* Completar un reto */
+function completar(index) {
+    let reto = retosActivos[index];
+
+    puntos += reto.pts;
+    racha  += 1;
+
+    // Subir nivel si se alcanza el umbral
+    if (puntos >= nivel * 50) nivel++;
+
+    // Quitar reto completado y agregar uno nuevo
+    retosActivos.splice(index, 1);
+    agregarReto();
+
+    actualizarUI();
+    renderRetos();
+
+    alert("¡Ganaste " + reto.pts + " puntos!");
+}
+
+/* Actualiza todos los indicadores */
+function actualizarUI() {
+    document.getElementById("puntos").innerText = puntos;
+    document.getElementById("nivel").innerText  = nivel;
+    document.getElementById("racha").innerText  = racha + " días";
+
+    // Barra de progreso dentro del nivel actual
+    let progreso = Math.min((puntos % (nivel * 50)) / (nivel * 50) * 100, 100);
+    document.getElementById("progreso").style.width = progreso + "%";
+
+    actualizarRango();
+    actualizarInsignias();
+}
+
+/* Rango según nivel */
+function actualizarRango() {
+    let rango = "Bronce";
+    if (nivel >= 3) rango = "Plata";
+    if (nivel >= 5) rango = "Oro";
+    if (nivel >= 8) rango = "Diamante";
+    document.getElementById("rango").innerText = rango;
+}
+
+/* Insignias (usando FontAwesome + etiqueta de texto) */
+function actualizarInsignias() {
+    let cont = document.getElementById("insignias");
+    let ins  = "";
+
+    if (puntos >= 50)
+        ins += '<span class="badge bronze" title="Principiante"><i class="fa-solid fa-medal"></i> Principiante</span>';
+
+    if (racha >= 5)
+        ins += '<span class="badge silver" title="Constante"><i class="fa-solid fa-fire"></i> Constante</span>';
+
+    if (puntos >= 150 && nivel >= 3)
+        ins += '<span class="badge gold" title="Dedicado"><i class="fa-solid fa-rocket"></i> Dedicado</span>';
+
+    if (puntos >= 300 && nivel >= 5)
+        ins += '<span class="badge gold" title="Experto"><i class="fa-solid fa-brain"></i> Experto</span>';
+
+    if (puntos >= 500 && nivel >= 7 && racha >= 10)
+        ins += '<span class="badge gold" title="Maestro"><i class="fa-solid fa-crown"></i> Maestro</span>';
+
+    if (puntos >= 800 && nivel >= 10 && racha >= 15)
+        ins += '<span class="badge gold" title="Legendario"><i class="fa-solid fa-gem"></i> Legendario</span>';
+
+    if (racha >= 20)
+        ins += '<span class="badge gold" title="Imparable"><i class="fa-solid fa-trophy"></i> Imparable</span>';
+
+    if (puntos >= 400 && racha >= 8)
+        ins += '<span class="badge silver" title="Velocista"><i class="fa-solid fa-bolt"></i> Velocista</span>';
+
+    cont.innerHTML = ins || '<span class="no-insignia">Sin insignias aún</span>';
+}
+
+// Arrancar
+iniciarRetos();
+</script>
+
+</body>
+</html>

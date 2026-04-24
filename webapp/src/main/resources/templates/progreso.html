@@ -4,79 +4,101 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi progreso | EstudiaYa</title>
-    <style>
-        body { font-family: "Segoe UI", sans-serif; margin: 0; background: #f4f7fb; color: #1b1f24; }
-        .wrap { max-width: 980px; margin: 24px auto; padding: 0 16px; }
-        .top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; }
-        .title { font-size: 28px; margin: 0; }
-        .back { text-decoration: none; color: #1d4ed8; font-weight: 600; }
-        .grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-bottom: 16px; }
-        .card { background: #fff; border-radius: 10px; padding: 14px; border: 1px solid #e6ecf5; }
-        .kpi { font-size: 22px; font-weight: 700; }
-        .lbl { color: #64748b; font-size: 13px; }
-        .table { background: #fff; border: 1px solid #e6ecf5; border-radius: 10px; overflow: hidden; }
-        table { width: 100%; border-collapse: collapse; }
-        th, td { text-align: left; padding: 12px; border-bottom: 1px solid #eef2f8; }
-        th { background: #f8fafc; font-size: 13px; color: #334155; }
-        .tag { padding: 4px 8px; border-radius: 999px; font-size: 12px; font-weight: 600; }
-        .warn { background: #fee2e2; color: #b91c1c; }
-        .ok { background: #dcfce7; color: #166534; }
-        @media (max-width: 860px) { .grid { grid-template-columns: repeat(2, 1fr); } }
-    </style>
+    <link rel="stylesheet" th:href="@{/inicioEjemplo.css}">
+    <link rel="stylesheet" th:href="@{/vistas-detalle.css}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body>
-<div class="wrap">
-    <div class="top">
-        <h1 class="title">Mi progreso</h1>
-        <a class="back" href="/">Volver al inicio</a>
+<div class="layout">
+    <div class="sidebar">
+        <div class="sidebar-header">
+            <div class="logo">Estudia<span>Ya</span></div>
+        </div>
+
+        <div class="user-info">
+            <div class="avatar">CL</div>
+            <div>
+                <div class="user-name">Carlos Lopez</div>
+                <div class="user-grade">3ro Secundaria</div>
+            </div>
+        </div>
+
+        <div class="xp-bar-wrap">
+            <div class="xp-label">Nivel 8 - Explorador</div>
+            <div class="xp-bar"><div class="xp-fill"></div></div>
+            <div class="xp-text">620 / 1000 XP</div>
+        </div>
+
+        <nav class="nav">
+            <a class="nav-item" th:href="@{/}" href="/"><div class="nav-dot"></div><span class="nav-label">Inicio</span></a>
+            <a class="nav-item" th:href="@{/mis-cursos}" href="/mis-cursos"><div class="nav-dot"></div><span class="nav-label">Mis cursos</span></a>
+            <a class="nav-item" th:href="@{/practica-inteligente}" href="/practica-inteligente"><div class="nav-dot"></div><span class="nav-label">Practica inteligente</span></a>
+            <a class="nav-item" th:href="@{/asistente-ia/1}" href="/asistente-ia/1"><div class="nav-dot"></div><span class="nav-label">Asistente IA</span></a>
+            <a class="nav-item active" th:href="@{/progreso/1}" href="/progreso/1"><div class="nav-dot"></div><span class="nav-label">Mi progreso</span></a>
+            <a class="nav-item" th:href="@{/plan-estudio}" href="/plan-estudio"><div class="nav-dot"></div><span class="nav-label">Plan de estudio</span></a>
+            <a class="nav-item" th:href="@{/logros-retos}" href="/logros-retos"><div class="nav-dot"></div><span class="nav-label">Logros y retos</span></a>
+        </nav>
+
+        <div class="sidebar-footer">
+            <a class="logout" th:href="@{/logout}" href="/logout">Cerrar sesion</a>
+        </div>
     </div>
 
-    <div class="grid">
-        <div class="card">
-            <div class="kpi" th:text="${progreso.totalTemas}">0</div>
-            <div class="lbl">Temas con seguimiento</div>
-        </div>
-        <div class="card">
-            <div class="kpi" th:text="${#numbers.formatDecimal(progreso.promedioAcierto, 1, 1)} + '%'">0%</div>
-            <div class="lbl">Promedio de acierto</div>
-        </div>
-        <div class="card">
-            <div class="kpi" th:text="${progreso.ejerciciosCorrectos}">0</div>
-            <div class="lbl">Ejercicios correctos</div>
-        </div>
-        <div class="card">
-            <div class="kpi" th:text="${progreso.logrosTotales}">0</div>
-            <div class="lbl">Logros obtenidos</div>
-        </div>
-    </div>
+    <div class="main module-main">
+        <div class="detail-wrap">
+            <div class="detail-top">
+                <h1 class="detail-title">Mi progreso</h1>
+                <a class="detail-back" th:href="@{/}"><i class="fa-solid fa-house"></i> Volver al inicio</a>
+            </div>
 
-    <div class="table">
-        <table>
-            <thead>
-            <tr>
-                <th>Tema</th>
-                <th>Intentados</th>
-                <th>Correctos</th>
-                <th>% Acierto</th>
-                <th>Estado</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr th:each="tema : ${progreso.detalleTemas}">
-                <td th:text="${tema.tema}">Tema</td>
-                <td th:text="${tema.ejerciciosIntentados}">0</td>
-                <td th:text="${tema.ejerciciosCorrectos}">0</td>
-                <td th:text="${#numbers.formatDecimal(tema.porcentajeAcierto, 1, 1)} + '%'">0%</td>
-                <td>
-                    <span class="tag" th:classappend="${tema.necesitaRefuerzo} ? 'warn' : 'ok'"
-                          th:text="${tema.necesitaRefuerzo} ? 'Reforzar' : 'Estable'">Estado</span>
-                </td>
-            </tr>
-            <tr th:if="${#lists.isEmpty(progreso.detalleTemas)}">
-                <td colspan="5">Aún no hay datos de progreso registrados para este usuario.</td>
-            </tr>
-            </tbody>
-        </table>
+            <div class="detail-kpi-grid">
+                <div class="detail-kpi">
+                    <div class="detail-kpi-val" th:text="${progreso.totalTemas}">0</div>
+                    <div class="detail-kpi-label">Temas con seguimiento</div>
+                </div>
+                <div class="detail-kpi">
+                    <div class="detail-kpi-val" th:text="${#numbers.formatDecimal(progreso.promedioAcierto, 1, 1)} + '%'">0%</div>
+                    <div class="detail-kpi-label">Promedio de acierto</div>
+                </div>
+                <div class="detail-kpi">
+                    <div class="detail-kpi-val" th:text="${progreso.ejerciciosCorrectos}">0</div>
+                    <div class="detail-kpi-label">Ejercicios correctos</div>
+                </div>
+                <div class="detail-kpi">
+                    <div class="detail-kpi-val" th:text="${progreso.logrosTotales}">0</div>
+                    <div class="detail-kpi-label">Logros obtenidos</div>
+                </div>
+            </div>
+
+            <div class="detail-table-wrap">
+                <table class="detail-table">
+                    <thead>
+                    <tr>
+                        <th>Tema</th>
+                        <th>Intentados</th>
+                        <th>Correctos</th>
+                        <th>% Acierto</th>
+                        <th>Estado</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr th:each="tema : ${progreso.detalleTemas}">
+                        <td th:text="${tema.tema}">Tema</td>
+                        <td th:text="${tema.ejerciciosIntentados}">0</td>
+                        <td th:text="${tema.ejerciciosCorrectos}">0</td>
+                        <td th:text="${#numbers.formatDecimal(tema.porcentajeAcierto, 1, 1)} + '%'">0%</td>
+                        <td>
+                            <span class="tag" th:classappend="${tema.necesitaRefuerzo} ? 'warn' : 'ok'"
+                                  th:text="${tema.necesitaRefuerzo} ? 'Reforzar' : 'Estable'">Estado</span>
+                        </td>
+                    </tr>
+                    <tr th:if="${#lists.isEmpty(progreso.detalleTemas)}">
+                        <td colspan="5">Aun no hay datos de progreso registrados para este usuario.</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
     </div>
 </div>
 </body>

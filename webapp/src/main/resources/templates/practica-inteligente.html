@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Práctica inteligente - EstudiaYa</title>
+  <link rel="stylesheet" th:href="@{/inicioEjemplo.css}" href="/inicioEjemplo.css">
+  <link rel="stylesheet" th:href="@{/practica-inteligente.css}" href="/practica-inteligente.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+<div class="layout">
+  <div class="sidebar">
+    <div class="sidebar-header">
+      <div class="logo">Estudia<span>Ya</span></div>
+    </div>
+
+    <div class="user-info">
+      <div class="avatar">CL</div>
+      <div>
+        <div class="user-name">Carlos López</div>
+        <div class="user-grade">3ro Secundaria</div>
+      </div>
+    </div>
+
+    <div class="xp-bar-wrap">
+      <div class="xp-label">Nivel 8 — Explorador</div>
+      <div class="xp-bar"><div class="xp-fill"></div></div>
+      <div class="xp-text">620 / 1000 XP</div>
+    </div>
+
+    <nav class="nav">
+      <a class="nav-item" th:href="@{/}" href="/"><div class="nav-dot"></div><span class="nav-label">Inicio</span></a>
+      <a class="nav-item" th:href="@{/mis-cursos}" href="/mis-cursos"><div class="nav-dot"></div><span class="nav-label">Mis cursos</span></a>
+      <a class="nav-item active" th:href="@{/practica-inteligente}" href="/practica-inteligente"><div class="nav-dot"></div><span class="nav-label">Práctica inteligente</span></a>
+      <a class="nav-item" th:href="@{/asistente-ia/1}" href="/asistente-ia/1"><div class="nav-dot"></div><span class="nav-label">Asistente IA</span></a>
+      <a class="nav-item" th:href="@{/progreso/1}" href="/progreso/1"><div class="nav-dot"></div><span class="nav-label">Mi progreso</span></a>
+      <a class="nav-item" th:href="@{/plan-estudio}" href="/plan-estudio"><div class="nav-dot"></div><span class="nav-label">Plan de estudio</span></a>
+      <a class="nav-item" th:href="@{/logros-retos}" href="/logros-retos"><div class="nav-dot"></div><span class="nav-label">Logros y retos</span></a>
+    </nav>
+
+    <div class="sidebar-footer">
+      <a class="logout" th:href="@{/logout}" href="/logout">Cerrar sesión</a>
+    </div>
+  </div>
+
+  <div class="main module-main">
+    <div class="module-header">
+      <div>
+        <div class="module-kicker">Módulo de práctica</div>
+        <h1>Práctica inteligente</h1>
+        <p>Ejercicios seleccionados para reforzar tus temas de mayor prioridad.</p>
+      </div>
+    </div>
+
+    <div class="practice-list" th:if="${!#lists.isEmpty(practicas)}">
+      <div class="practice-card" th:each="practica : ${practicas}">
+        <div class="practice-meta">
+          <span th:text="${practica.cursoNombre} ?: 'Curso'">Curso</span>
+          <span th:text="${practica.temaNombre} ?: 'Tema'">Tema</span>
+          <span th:text="${practica.dificultad} ?: 'Dificultad'">FACIL</span>
+        </div>
+
+        <h2 th:text="${practica.pregunta}">Pregunta de práctica</h2>
+
+        <div class="answers">
+          <button type="button" th:text="'A. ' + ${practica.opcionA}">A. opción</button>
+          <button type="button" th:text="'B. ' + ${practica.opcionB}">B. opción</button>
+          <button type="button" th:text="'C. ' + ${practica.opcionC}">C. opción</button>
+          <button type="button" th:text="'D. ' + ${practica.opcionD}">D. opción</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="empty-module" th:if="${#lists.isEmpty(practicas)}">
+      <h2>No hay ejercicios registrados</h2>
+      <p>Cuando agregues ejercicios en la base de datos aparecerán en este módulo.</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>

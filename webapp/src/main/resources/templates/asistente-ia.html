@@ -4,47 +4,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Asistente IA | EstudiaYa</title>
-    <style>
-        body { font-family: "Segoe UI", sans-serif; margin: 0; background: #f5f7ff; color: #1f2937; }
-        .wrap { max-width: 980px; margin: 24px auto; padding: 0 16px; }
-        .top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; }
-        .title { font-size: 28px; margin: 0; }
-        .back { text-decoration: none; color: #1d4ed8; font-weight: 600; }
-        .hero { background: linear-gradient(120deg, #1e3a8a, #1d4ed8); color: #fff; border-radius: 12px; padding: 18px; margin-bottom: 16px; }
-        .hero h2 { margin: 0 0 8px; }
-        .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
-        .card { background: #fff; border: 1px solid #e6ecf5; border-radius: 10px; padding: 14px; }
-        ul { margin: 8px 0 0 18px; }
-        li { margin-bottom: 6px; }
-        @media (max-width: 860px) { .grid { grid-template-columns: 1fr; } }
-    </style>
+    <link rel="stylesheet" th:href="@{/inicioEjemplo.css}">
+    <link rel="stylesheet" th:href="@{/vistas-detalle.css}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body>
-<div class="wrap">
-    <div class="top">
-        <h1 class="title">Asistente IA</h1>
-        <a class="back" href="/">Volver al inicio</a>
-    </div>
-
-    <div class="hero">
-        <h2 th:text="'Hola, ' + ${asistencia.nombreUsuario}">Hola</h2>
-        <p th:text="${asistencia.mensajePrincipal}">Mensaje principal</p>
-    </div>
-
-    <div class="grid">
-        <div class="card">
-            <h3>Temas a reforzar</h3>
-            <ul>
-                <li th:each="tema : ${asistencia.temasRefuerzo}" th:text="${tema}">Tema</li>
-            </ul>
-            <p th:if="${#lists.isEmpty(asistencia.temasRefuerzo)}">No hay temas críticos por ahora.</p>
+<div class="layout">
+    <div class="sidebar">
+        <div class="sidebar-header">
+            <div class="logo">Estudia<span>Ya</span></div>
         </div>
 
-        <div class="card">
-            <h3>Plan sugerido por IA</h3>
-            <ul>
-                <li th:each="item : ${asistencia.recomendaciones}" th:text="${item}">Recomendación</li>
-            </ul>
+        <div class="user-info">
+            <div class="avatar">CL</div>
+            <div>
+                <div class="user-name">Carlos Lopez</div>
+                <div class="user-grade">3ro Secundaria</div>
+            </div>
+        </div>
+
+        <div class="xp-bar-wrap">
+            <div class="xp-label">Nivel 8 - Explorador</div>
+            <div class="xp-bar"><div class="xp-fill"></div></div>
+            <div class="xp-text">620 / 1000 XP</div>
+        </div>
+
+        <nav class="nav">
+            <a class="nav-item" th:href="@{/}" href="/"><div class="nav-dot"></div><span class="nav-label">Inicio</span></a>
+            <a class="nav-item" th:href="@{/mis-cursos}" href="/mis-cursos"><div class="nav-dot"></div><span class="nav-label">Mis cursos</span></a>
+            <a class="nav-item" th:href="@{/practica-inteligente}" href="/practica-inteligente"><div class="nav-dot"></div><span class="nav-label">Practica inteligente</span></a>
+            <a class="nav-item active" th:href="@{/asistente-ia/1}" href="/asistente-ia/1"><div class="nav-dot"></div><span class="nav-label">Asistente IA</span></a>
+            <a class="nav-item" th:href="@{/progreso/1}" href="/progreso/1"><div class="nav-dot"></div><span class="nav-label">Mi progreso</span></a>
+            <a class="nav-item" th:href="@{/plan-estudio}" href="/plan-estudio"><div class="nav-dot"></div><span class="nav-label">Plan de estudio</span></a>
+            <a class="nav-item" th:href="@{/logros-retos}" href="/logros-retos"><div class="nav-dot"></div><span class="nav-label">Logros y retos</span></a>
+        </nav>
+
+        <div class="sidebar-footer">
+            <a class="logout" th:href="@{/logout}" href="/logout">Cerrar sesion</a>
+        </div>
+    </div>
+
+    <div class="main module-main">
+        <div class="detail-wrap">
+            <div class="detail-top">
+                <h1 class="detail-title">Asistente IA</h1>
+                <a class="detail-back" th:href="@{/}"><i class="fa-solid fa-house"></i> Volver al inicio</a>
+            </div>
+
+            <div class="detail-hero">
+                <h2 th:text="'Hola, ' + ${asistencia.nombreUsuario}">Hola</h2>
+                <p th:text="${asistencia.mensajePrincipal}">Mensaje principal</p>
+            </div>
+
+            <div class="detail-grid">
+                <div class="detail-card">
+                    <h3>Temas a reforzar</h3>
+                    <ul class="detail-list">
+                        <li th:each="tema : ${asistencia.temasRefuerzo}" th:text="${tema}">Tema</li>
+                    </ul>
+                    <p th:if="${#lists.isEmpty(asistencia.temasRefuerzo)}">No hay temas criticos por ahora.</p>
+                </div>
+
+                <div class="detail-card">
+                    <h3>Plan sugerido por IA</h3>
+                    <ul class="detail-list">
+                        <li th:each="item : ${asistencia.recomendaciones}" th:text="${item}">Recomendacion</li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
 </div>

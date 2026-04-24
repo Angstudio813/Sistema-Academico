@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dashboard EstudiaYa</title>
-  <link rel="stylesheet" href="inicioEjemplo.css">
+  <link rel="stylesheet" th:href="@{/inicioEjemplo.css}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body>
 
@@ -30,16 +32,16 @@
 
     <nav class="nav">
       <div class="nav-item active"><div class="nav-dot"></div><span class="nav-label">Inicio</span></div>
-      <div class="nav-item"><div class="nav-dot"></div><span class="nav-label">Mis cursos</span></div>
-      <div class="nav-item"><div class="nav-dot"></div><span class="nav-label">Práctica inteligente</span></div>
-      <div class="nav-item"><div class="nav-dot"></div><span class="nav-label"><a href="/asistente-ia/1">Asistente IA</a></span></div>
-      <div class="nav-item"><div class="nav-dot"></div><span class="nav-label"><a href="/progreso/1">Mi progreso</a></span></div>
-      <div class="nav-item"><div class="nav-dot"></div><span class="nav-label">Plan de estudio</span></div>
-      <div class="nav-item"><div class="nav-dot"></div><span class="nav-label">Logros y retos</span></div>
+      <div class="nav-item"><div class="nav-dot"></div><span class="nav-label"><a th:href="@{/mis-cursos}" href="/mis-cursos">Mis cursos</a></span></div>
+      <div class="nav-item"><div class="nav-dot"></div><span class="nav-label"><a th:href="@{/practica-inteligente}" href="/practica-inteligente">Práctica inteligente</a></span></div>
+      <div class="nav-item"><div class="nav-dot"></div><span class="nav-label"><a th:href="@{/asistente-ia/1}" href="/asistente-ia/1">Asistente IA</a></span></div>
+      <div class="nav-item"><div class="nav-dot"></div><span class="nav-label"><a th:href="@{/progreso/1}" href="/progreso/1">Mi progreso</a></span></div>
+      <div class="nav-item"><div class="nav-dot"></div><span class="nav-label"><a th:href="@{/plan-estudio}" href="/plan-estudio">Plan de estudio</a></span></div>
+      <div class="nav-item"><div class="nav-dot"></div><span class="nav-label"><a th:href="@{/logros-retos}" href="/logros-retos">Logros y retos</a></span></div>
     </nav>
 
     <div class="sidebar-footer">
-      <div class="logout">Cerrar sesión</div>
+      <a class="logout" th:href="@{/logout}" href="/logout">Cerrar sesión</a>
     </div>
   </div>
 
@@ -51,7 +53,7 @@
       </div>
 
       <div class="streak-badge">
-        <span class="streak-fire">🔥</span>
+        <span class="streak-fire"><i class="fa-solid fa-fire"></i></span>
         <div>
           <div class="streak-num">7</div>
           <div class="streak-label">días seguidos</div>
@@ -88,7 +90,7 @@
     <div class="courses-grid">
       <div class="course-card">
         <div class="course-top">
-          <div class="course-icon">📐</div>
+          <div class="course-icon"><i class="fa-solid fa-compass-drafting"></i></div>
           <div>
             <div class="course-name">Matemática</div>
             <div class="course-topic">Fracciones y decimales</div>
@@ -102,10 +104,10 @@
     <div class="section-title">Logros recientes</div>
 
     <div class="logros-row">
-      <div class="logro"><div class="logro-icon">🏆</div><div class="logro-name">Primera racha</div></div>
-      <div class="logro"><div class="logro-icon">⚡</div><div class="logro-name">Velocista</div></div>
-      <div class="logro"><div class="logro-icon">🎯</div><div class="logro-name">Puntería perfecta</div></div>
-      <div class="logro"><div class="logro-icon">📚</div><div class="logro-name">Lector ávido</div></div>
+      <div class="logro"><div class="logro-icon"><i class="fa-solid fa-trophy"></i></div><div class="logro-name">Primera racha</div></div>
+      <div class="logro"><div class="logro-icon"><i class="fa-solid fa-bolt"></i></div><div class="logro-name">Velocista</div></div>
+      <div class="logro"><div class="logro-icon"><i class="fa-solid fa-bullseye"></i></div><div class="logro-name">Puntería perfecta</div></div>
+      <div class="logro"><div class="logro-icon"><i class="fa-solid fa-book"></i></div><div class="logro-name">Lector ávido</div></div>
     </div>
   </div>
 </div>

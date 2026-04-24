@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mis cursos - EstudiaYa</title>
+  <link rel="stylesheet" th:href="@{/inicioEjemplo.css}" href="/inicioEjemplo.css">
+  <link rel="stylesheet" th:href="@{/mis-cursos.css}" href="/mis-cursos.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+<div class="layout">
+  <div class="sidebar">
+    <div class="sidebar-header">
+      <div class="logo">Estudia<span>Ya</span></div>
+    </div>
+
+    <div class="user-info">
+      <div class="avatar">CL</div>
+      <div>
+        <div class="user-name">Carlos López</div>
+        <div class="user-grade">3ro Secundaria</div>
+      </div>
+    </div>
+
+    <div class="xp-bar-wrap">
+      <div class="xp-label">Nivel 8 — Explorador</div>
+      <div class="xp-bar"><div class="xp-fill"></div></div>
+      <div class="xp-text">620 / 1000 XP</div>
+    </div>
+
+    <nav class="nav">
+      <a class="nav-item" th:href="@{/}" href="/"><div class="nav-dot"></div><span class="nav-label">Inicio</span></a>
+      <a class="nav-item active" th:href="@{/mis-cursos}" href="/mis-cursos"><div class="nav-dot"></div><span class="nav-label">Mis cursos</span></a>
+      <a class="nav-item" th:href="@{/practica-inteligente}" href="/practica-inteligente"><div class="nav-dot"></div><span class="nav-label">Práctica inteligente</span></a>
+      <a class="nav-item" th:href="@{/asistente-ia/1}" href="/asistente-ia/1"><div class="nav-dot"></div><span class="nav-label">Asistente IA</span></a>
+      <a class="nav-item" th:href="@{/progreso/1}" href="/progreso/1"><div class="nav-dot"></div><span class="nav-label">Mi progreso</span></a>
+      <a class="nav-item" th:href="@{/plan-estudio}" href="/plan-estudio"><div class="nav-dot"></div><span class="nav-label">Plan de estudio</span></a>
+      <a class="nav-item" th:href="@{/logros-retos}" href="/logros-retos"><div class="nav-dot"></div><span class="nav-label">Logros y retos</span></a>
+    </nav>
+
+    <div class="sidebar-footer">
+      <a class="logout" th:href="@{/logout}" href="/logout">Cerrar sesión</a>
+    </div>
+  </div>
+
+  <div class="main module-main">
+    <div class="module-header">
+      <div>
+        <div class="module-kicker">Módulo de aprendizaje</div>
+        <h1>Mis cursos</h1>
+        <p>Revisa los cursos disponibles y continúa tu avance por tema.</p>
+      </div>
+    </div>
+
+    <div class="module-grid" th:if="${!#lists.isEmpty(cursos)}">
+      <div class="module-card" th:each="curso : ${cursos}" th:style="'--accent:' + (${curso.colorHex} ?: '#534ab7')">
+        <div class="module-icon" th:text="${curso.icono} ?: 'Curso'">Curso</div>
+        <div>
+          <h2 th:text="${curso.nombre}">Matemática</h2>
+          <p th:text="${curso.descripcion} ?: 'Curso disponible para seguir aprendiendo.'">Curso disponible.</p>
+          <div class="module-meta">
+            <span th:text="${curso.nivel}">SECUNDARIA</span>
+            <span th:text="${curso.grado} + ' grado'">3 grado</span>
+            <span th:text="${curso.totalTemas} + ' temas'">0 temas</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="empty-module" th:if="${#lists.isEmpty(cursos)}">
+      <h2>No hay cursos registrados</h2>
+      <p>Cuando agregues cursos en la base de datos aparecerán en este módulo.</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>

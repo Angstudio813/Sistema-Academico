@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plan de Estudio</title>
+    <link rel="stylesheet" th:href="@{/inicioEjemplo.css}">
+    <link rel="stylesheet" th:href="@{/plan.css}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+<div class="layout">
+    <div class="sidebar">
+        <div class="sidebar-header">
+            <div class="logo">Estudia<span>Ya</span></div>
+        </div>
+
+        <div class="user-info">
+            <div class="avatar">CL</div>
+            <div>
+                <div class="user-name">Carlos Lopez</div>
+                <div class="user-grade">3ro Secundaria</div>
+            </div>
+        </div>
+
+        <div class="xp-bar-wrap">
+            <div class="xp-label">Nivel 8 - Explorador</div>
+            <div class="xp-bar"><div class="xp-fill"></div></div>
+            <div class="xp-text">620 / 1000 XP</div>
+        </div>
+
+        <nav class="nav">
+            <a class="nav-item" th:href="@{/}" href="/"><div class="nav-dot"></div><span class="nav-label">Inicio</span></a>
+            <a class="nav-item" th:href="@{/mis-cursos}" href="/mis-cursos"><div class="nav-dot"></div><span class="nav-label">Mis cursos</span></a>
+            <a class="nav-item" th:href="@{/practica-inteligente}" href="/practica-inteligente"><div class="nav-dot"></div><span class="nav-label">Practica inteligente</span></a>
+            <a class="nav-item" th:href="@{/asistente-ia/1}" href="/asistente-ia/1"><div class="nav-dot"></div><span class="nav-label">Asistente IA</span></a>
+            <a class="nav-item" th:href="@{/progreso/1}" href="/progreso/1"><div class="nav-dot"></div><span class="nav-label">Mi progreso</span></a>
+            <a class="nav-item active" th:href="@{/plan-estudio}" href="/plan-estudio"><div class="nav-dot"></div><span class="nav-label">Plan de estudio</span></a>
+            <a class="nav-item" th:href="@{/logros-retos}" href="/logros-retos"><div class="nav-dot"></div><span class="nav-label">Logros y retos</span></a>
+        </nav>
+
+        <div class="sidebar-footer">
+            <a class="logout" th:href="@{/logout}" href="/logout">Cerrar sesion</a>
+        </div>
+    </div>
+
+    <div class="main module-main">
+<div class="plan-shell">
+
+    <h1><i class="fa-solid fa-calendar-days"></i> Plan de Estudio</h1>
+
+    <!-- CONFIG -->
+    <div class="card">
+        <label>Hora de inicio:</label>
+        <input type="time" id="horaInicio" value="08:00">
+    </div>
+
+    <!-- AGREGAR -->
+    <div class="card">
+        <select id="dia">
+            <option>Lunes</option>
+            <option>Martes</option>
+            <option>Miércoles</option>
+            <option>Jueves</option>
+            <option>Viernes</option>
+            <option>Sábado</option>
+            <option>Domingo</option>
+        </select>
+
+        <input type="text" id="cursoInput" placeholder="Curso">
+
+        <input type="number" id="duracion" placeholder="Horas (ej: 2)">
+
+        <button onclick="agregarCurso()">Agregar</button>
+    </div>
+
+    <!-- LISTA -->
+    <div id="planManual"></div>
+
+    <button onclick="generar()">Generar Plan</button>
+
+    <!-- RESULTADO -->
+    <div id="resultado" class="grid"></div>
+
+</div>
+    </div>
+</div>
+
+<!-- MODAL -->
+<div id="modal" class="modal">
+    <div class="modal-content">
+        <h3><i class="fa-solid fa-circle-check"></i> Plan generado</h3>
+        <button onclick="cerrarModal()">OK</button>
+    </div>
+</div>
+
+<script>
+
+let plan = {};
+
+/* AGREGAR */
+function agregarCurso() {
+
+    const dia = document.getElementById("dia").value;
+    const curso = document.getElementById("cursoInput").value;
+    const duracion = parseInt(document.getElementById("duracion").value);
+
+    if (!curso.trim() || !duracion) return;
+
+    if (!plan[dia]) plan[dia] = [];
+
+    plan[dia].push({
+        nombre: curso.trim(),
+        duracion: duracion
+    });
+
+    document.getElementById("cursoInput").value = "";
+    document.getElementById("duracion").value = "";
+
+    renderPlan();
+}
+
+/* MOSTRAR LISTA */
+function renderPlan() {
+    let html = "";
+
+    for (let dia in plan) {
+
+        html += `<div class="card"><h3>${dia}</h3>`;
+
+        plan[dia].forEach((c,i) => {
+            html += `
+            <div class="item">
+                ${c.nombre} (${c.duracion}h)
+                <span onclick="eliminar('${dia}',${i})"><i class="fa-solid fa-xmark"></i></span>
+            </div>`;
+        });
+
+        html += `</div>`;
+    }
+
+    document.getElementById("planManual").innerHTML = html;
+}
+
+/* ELIMINAR */
+function eliminar(dia, i) {
+    plan[dia].splice(i,1);
+    renderPlan();
+}
+
+/* GENERAR */
+function generar() {
+
+    if (Object.keys(plan).length === 0) {
+        alert("Agrega cursos primero");
+        return;
+    }
+
+    renderFinal(plan);
+}
+
+/* GENERAR HORARIO REAL */
+function renderFinal(horario) {
+
+    const horaInicio = document.getElementById("horaInicio").value || "08:00";
+    let horaBase = parseInt(horaInicio.split(":")[0]);
+
+    let html = "";
+
+    for (let dia in horario) {
+
+        let hora = horaBase;
+
+        html += `<div class="day-card"><h3>${dia}</h3>`;
+
+        horario[dia].forEach(curso => {
+
+            let inicio = hora;
+            let fin = hora + curso.duracion;
+
+            html += `
+            <div class="bloque">
+                <strong>${curso.nombre}</strong>
+                <p class="hora">${inicio}:00 - ${fin}:00 (${curso.duracion}h)</p>
+            </div>
+            `;
+
+            hora = fin;
+        });
+
+        html += `</div>`;
+    }
+
+    document.getElementById("resultado").innerHTML = html;
+    document.getElementById("modal").style.display = "flex";
+}
+
+function cerrarModal() {
+    document.getElementById("modal").style.display = "none";
+}
+
+</script>
+
+</body>
+</html>
